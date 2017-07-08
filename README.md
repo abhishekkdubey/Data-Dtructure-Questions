@@ -49,3 +49,32 @@ Linked List 1: 17->10->9->5   Linked List 2: 15->4->1
 ```
 17->15->10->9->5->4->1
 ```
+## **3. Write a function which check tow Strings are isolated or not**
+
+**NOTE:** Isolated in this questions means:
+1. Size of both string should be same.
+2. Each character of 1st String paired with another String character at same index will form a uniques combination.
+3. One character can not paired with more than one character.
+	  
+**Example:**
+
+* Isolated 
+```
+String str1= "aabd"; String Str2="xxnp"
+	Pairing 
+	a->x  
+	a->x //a already pair with x so it won't be a problem  
+	b->n
+	d->p
+```		 
+
+* Non-Isolated
+
+```
+String str1= "aabx"; String Str2="xxnp"
+	Pairing 
+	a->x  
+	a->x 
+	b->n
+	x->p // pairing of x is already with a so it won't pair with p. So it is not isolated.
+```
