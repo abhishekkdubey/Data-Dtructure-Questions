@@ -26,4 +26,26 @@ public class Node {
 
 }
 ```
-## **Expected Output : 6 8 9 7 3 2 1**
+* Expected Output:
+```
+6 8 9 7 3 2 1 
+```
+
+## **2. Write a program  which merge given two Linked List and generate sorted Linked List**
+ 
+* Input: 
+```
+Linked List 1: 13->11->9->5  Linked List 2: 12->3->7->4
+```
+* Output:
+```
+13->12->11->9->7->5->4
+```
+ * Input: 
+```
+Linked List 1: 17->10->9->5   Linked List 2: 15->4->1
+```
+* Output:
+```
+17->15->10->9->5->4->1
+```
